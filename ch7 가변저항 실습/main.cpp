@@ -2,6 +2,7 @@
 
 // main() runs in its own thread in the OS
 AnalogIn POT(A0);
+
 int main()
 {
     while (true) {

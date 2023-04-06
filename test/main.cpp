@@ -1,9 +1,8 @@
+#include "SerialBase.h"
 #include "mbed.h"
 
 // main() runs in its own thread in the OS
-DigitalOut led1(LED1);
-DigitalOut led2(LED2);
-DigitalIn but(BUTTON1);
+Serial pc(USBTX, USBRX)
 
 int main()
 {
